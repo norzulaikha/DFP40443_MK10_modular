@@ -2,7 +2,7 @@
 
 <script src="script.js" defer></script>
 
-<form method="POST" action="tempahancontroller.php" id="orderForm">
+<form method="POST" action="tempahanprocess.php" id="orderForm">
     <div class="product-grid">
         <?php foreach ($data as $produk): ?>
             <div class="product-card">
@@ -40,7 +40,7 @@
                 <label>Nama Penuh Anda:</label>
                 <input type="text" name="nama_pelanggan" placeholder="Contoh: Ali Bin Abu" required>
             </div>
-            <button type="submit" class="btn-teruskan">Teruskan</button>
+            <button type="submit" class="btn-teruskan">Hantar Tempahan</button>
         </div>
     </div>
 </form>
